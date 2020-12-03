@@ -32,6 +32,8 @@ For example, the hex tag of "Pixel Data" is `7FE0,0010`, and it can be accessed 
 Multiple DICOM files in a folder can be read by
 ```
 julia> dcm_data_array = dcmdir_parse("path/to/dicom/folder")
+
+#JAMES HENNESSY ADDED VIZ _PACKING TODO
 ```
 
 **Writing Data**
